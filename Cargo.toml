@@ -1,5 +1,5 @@
 [package]
-name = "tree-sitter-typescript"
+name = "tree-sitter-tsx"
 description = "Typescript grammar for the tree-sitter parsing library"
 version = "0.20.2"
 authors = ["Max Brunsfeld <maxbrunsfeld@gmail.com>"]

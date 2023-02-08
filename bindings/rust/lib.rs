@@ -46,6 +46,10 @@ pub fn language_tsx() -> Language {
     unsafe { tree_sitter_tsx() }
 }
 
+pub fn language() -> Language {
+    unsafe { tree_sitter_tsx() }
+}
+
 /// The syntax highlighting query for this language.
 pub const HIGHLIGHT_QUERY: &str = include_str!("../../queries/highlights.scm");
 
